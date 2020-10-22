@@ -73,6 +73,7 @@ img{
     color: #ffffff;
     border-radius: 5px;
     padding: 18px 32px;
+    box-shadow: #0090aa 2px 2px 2px;
 }
 .button:hover{
     background: #0090aa;
@@ -157,8 +158,8 @@ article{
 }
 .post-title{
     font-family: "나눔명조",nanummyeongjo,serif;
-    font-size: 1.8rem;
-    font-weight: normal;
+    font-size: 1.7rem;
+    font-weight: bold;
 }
 
 .post-title, .post-cat{
@@ -208,12 +209,14 @@ aside p{
     max-width: 100px;
     height: 100vh;
     size: cover;
+    border:1px solid #443322 ;
+    box-shadow: #443322 2px 2px 2px;
 }
 
 /* Menu */
 #menu{
     background-image: url(../images/menu-bg.jpg);
-    min-height: 100vh;
+    min-height: 75vh;
 }
 .menu-content{
     max-width: 560px;
@@ -233,16 +236,16 @@ aside p{
     margin-top: 6%;
     margin-bottom: 50px;
 }
-.big-box{
-    grid-column: 1 / 3;
-    grid-row: 1 / 3;
-}
-.big-box img{
-    height: 94%;
-    width: 100%;
-    object-fit: cover;
-}
 
+.item{
+    box-shadow: #443322 1px 1px 2px;
+}
+.item p{
+    color: #443322;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px;
+}
 /* Contact */
 #contact{
     background-image: url(../images/contact-bg.jpg);
